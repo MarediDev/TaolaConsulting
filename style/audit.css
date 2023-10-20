@@ -1,0 +1,229 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*my styling start here*/
+body{
+  background-color:#4a4a4a;
+}
+
+header
+{
+ width:100%;
+ height : 120px;
+ background-color: black;
+
+}
+.section-logo
+{
+  display:flex;
+  margin-top:37px;
+  float: left;
+  width:50%;
+  height: 50px;
+}
+.circleLogo
+{
+  display: block;
+  background:#3F3C40;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  margin-top: -10px;
+  margin-left: 0px;
+
+}
+.circleLogo li
+{
+  padding-top: 30px;
+  padding-left: 8px;
+  list-style-type: none;
+}
+.circleLogo li a
+{
+  color:red;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.inside-circle
+{
+  line-height: 70px;
+}
+
+.Logoname
+{
+  margin-top: 22px;
+  margin-left: 0px;
+  list-style-type: none;
+}
+
+.Logoname  a
+{
+ text-decoration: none;
+ color:red;
+ align: center;
+}
+.Logoname  a p
+{
+justify-content: center;
+}
+
+
+.section-nav
+{
+  margin-top:37px;
+  float: right;
+  width:50%;
+  height: 50px;
+  background-color:#3F3C40;
+}
+.section-nav nav
+{
+  line-height: 50px;
+}
+.section-nav nav ul  li
+{
+  display: inline-block;
+  float:left;
+  position:relative;
+}
+
+.section-nav nav ul li a
+{
+  color : white;
+  text-decoration: none;
+  padding:0px 56px;
+
+
+}
+.section-nav nav ul li a:hover
+{
+
+  color : red;
+}
+.section-nav nav ul li ul
+{
+  display:none;
+  position:absolute;
+  width:260px;
+  background-color:black;
+  padding: 10px 0px;
+  border-radius: 0px 0px 10px 10px;
+}
+.section-nav nav ul li:hover ul
+{
+  display:block;
+
+}
+.section-nav nav ul li ul li
+{
+  width:270px;
+  height: 40px;
+  border-radius: 10px;
+}
+.section-nav nav ul li ul li a
+{
+ padding-left: 64px;
+
+}
